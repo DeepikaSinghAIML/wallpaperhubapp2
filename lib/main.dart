@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:wallpaperhubapp/views/home.dart';
 
 void main() {
   runApp(MyApp());
 }
-
+//test
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
 
         primaryColor: Colors.white,
       ),
-      home: MyHomePage(),
+      home: Home(),
     );
   }
 }
